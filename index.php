@@ -18,13 +18,13 @@
             if($idade < 16 && $idade > 0){
                 echo "não pode votar";
             }
-            if($idade >= 16 && $idade <= 18) {
+            else if($idade >= 16 && $idade <= 18) {
                 echo "voto facultativo";
             }
-            if($idade >= 19 && $idade <= 65){
+            else if($idade >= 19 && $idade <= 65){
                 echo "voto obrigatório";
             }
-            if($idade >= 66){
+            else if($idade >= 66){
                 echo "voto facultativo";
             }
             //resto 
